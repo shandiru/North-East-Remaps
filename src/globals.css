@@ -1,10 +1,10 @@
 :root {
-  --color-primary: #D31B0B; /* red from logo */
-  --color-secondary: #1f2937; /* secondary dark gray */
+  --color-primary: #99EEEE; /* new blue from image */
+  --color-secondary: #D31B0B; /* red */
 
   /* Light mode colors */
-  --color-text: #000000; /* black text */
-  --color-bg: #ffffff; /* white background */
+  --color-text: #000000;
+  --color-bg: #ffffff;
 
   /* Dark mode colors */
   --color-text-dark: #ffffff;
@@ -14,9 +14,9 @@
   --color-overlay: rgba(0, 0, 0, 0.7);
   --color-rating: var(--color-primary);
 
-  /* Additional arrow colors from logo */
+  /* Additional arrow colors */
   --color-green: #3BB14A;
-  --color-blue: #0080FF;
+  --color-blue: #99EEEE; /* new blue */
 }
 
 /* Text helpers */
@@ -36,5 +36,5 @@
 .bg-overlay { background-color: var(--color-overlay) !important; }
 
 /* Shadow & Border */
-.shadow-primary { box-shadow: 0 10px 15px -3px rgba(211, 27, 11, 0.5), 0 4px 6px -2 rgba(211, 27, 11, 0.1); }
+.shadow-primary { box-shadow: 0 10px 15px -3px rgba(153, 238, 238, 0.5), 0 4px 6px -2 rgba(153, 238, 238, 0.1); }
 .border-primary { border: 2px solid var(--color-primary); }
